@@ -1,0 +1,134 @@
+{
+  "bags": [
+    {
+      "id": "1",
+      "name": "Túi Xách KStyle Basic",
+      "sl": 10,
+      "price": 499000,
+      "des": "Túi xách da mềm thời trang, phù hợp đi học, đi chơi.",
+      "img": "/img/bag1.avif"
+    },
+    {
+      "id": "2",
+      "name": "Túi Tote Canvas KShop",
+      "sl": 15,
+      "price": 259000,
+      "des": "Túi tote vải canvas trẻ trung, siêu nhẹ, đựng laptop được.",
+      "img": "/img/bag2.avif"
+    },
+    {
+      "id": "3",
+      "name": "Túi Tròn Da Vintage",
+      "sl": 5,
+      "price": 389000,
+      "des": "Túi xách thiết kế nhỏ gọn, da PU cao cấp , phong cách retro.",
+      "img": "/img/bag3.avif"
+    },
+    {
+      "id": "4",
+      "name": "Túi Xách Đeo Vai Mini KBag",
+      "sl": 8,
+      "price": 319000,
+      "des": "Túi đeo vai nhỏ gọn, chất da tổng hợp, nhiều màu sắc trẻ trung.",
+      "img": "/img/bag4.webp"
+    },
+    {
+      "id": "5",
+      "name": "Túi Xách Nữ Phối Khóa Vàng",
+      "sl": 12,
+      "price": 569000,
+      "des": "Túi sang trọng với điểm nhấn khóa vàng kim, da trơn bóng.",
+      "img": "/img/bag5.avif"
+    },
+    {
+      "id": "6",
+      "name": "Túi Xách Hình Hộp Thời Trang",
+      "sl": 6,
+      "price": 429000,
+      "des": "Kiểu dáng hình hộp cứng cáp, phong cách Hàn Quốc hiện đại.",
+      "img": "/img/bag6.avif"
+    },
+    {
+      "id": "7",
+      "name": "Túi Đeo Chéo Thể Thao Nữ",
+      "sl": 20,
+      "price": 219000,
+      "des": "Chất liệu vải dù chống nước, phong cách năng động.",
+      "img": "/img/bag7.avif"
+    },
+    {
+      "id": "8",
+      "name": "Túi Xách Công Sở Cỡ Trung",
+      "sl": 9,
+      "price": 489000,
+      "des": "Thiết kế chuyên nghiệp, phối được với trang phục đi làm.",
+      "img": "/img/bag8.avif"
+    }
+  ],
+   "shoes": [
+    {
+      "id": "1",
+      "name": "Giày Sneaker Trắng Basic",
+      "sl": 20,
+      "price": 499000,
+      "des": "Giày sneaker màu trắng dễ phối đồ, chất liệu vải thoáng khí.",
+      "img": "/img/shoes1.avif"
+    },
+    {
+      "id": "2",
+      "name": "Giày Thể Thao Nữ KSport",
+      "sl": 18,
+      "price": 459000,
+      "des": "Kiểu dáng thể thao năng động, đế cao su chống trơn trượt.",
+      "img": "/img/shoes2.avif"
+    },
+    {
+      "id": "3",
+      "name": "Giày Lười Da Lì Mũi Tròn",
+      "sl": 12,
+      "price": 389000,
+      "des": "Thiết kế giày lười tiện dụng, phù hợp đi làm hoặc dạo phố.",
+      "img": "/img/shoes3.avif"
+    },
+    {
+      "id": "4",
+      "name": "Boot Nữ Cổ Ngắn Da Mờ",
+      "sl": 6,
+      "price": 629000,
+      "des": "Boot cổ ngắn cá tính, chất liệu da PU cao cấp, có khóa kéo.",
+      "img": "/img/shoes4.avif"
+    },
+    {
+      "id": "5",
+      "name": "Sandal Quai Ngang Nữ KStyle",
+      "sl": 25,
+      "price": 299000,
+      "des": "Sandal nhẹ, thoáng, phong cách tối giản phù hợp mùa hè.",
+      "img": "/img/shoes5.avif"
+    },
+    {
+      "id": "6",
+      "name": "Giày Cao Gót 5cm Mũi Nhọn",
+      "sl": 10,
+      "price": 479000,
+      "des": "Giày công sở thanh lịch, đế vuông chắc chắn, độ cao 5cm.",
+      "img": "/img/shoes6.avif"
+    },
+    {
+      "id": "7",
+      "name": "Giày Sneaker Hồng Pastel",
+      "sl": 8,
+      "price": 519000,
+      "des": "Tone màu pastel nhẹ nhàng, đệm êm chống sốc tốt.",
+      "img": "/img/shoes7.avif"
+    },
+    {
+      "id": "8",
+      "name": "Boot Cao Cổ Thời Trang",
+      "sl": 5,
+      "price": 689000,
+      "des": "Thiết kế boot cá tính, cao cổ ôm chân, cực chất cho mùa lạnh.",
+      "img": "/img/shoes8.avif"
+    }
+  ]
+}

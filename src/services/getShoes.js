@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "http://localhost:3002/shoes"
+const API_URL = "https://raw.githubusercontent.com/Vahuki/database-kstore/main/shoes.json"
 
 export const getShoes = async () =>{
     try {

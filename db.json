@@ -67,7 +67,7 @@
   ],
    "shoes": [
     {
-      "id": "1",
+      "id": "9",
       "name": "Giày Sneaker Trắng Basic",
       "sl": 20,
       "price": 499000,
@@ -75,7 +75,7 @@
       "img": "/img/shoes1.avif"
     },
     {
-      "id": "2",
+      "id": "10",
       "name": "Giày Thể Thao Nữ KSport",
       "sl": 18,
       "price": 459000,
@@ -83,7 +83,7 @@
       "img": "/img/shoes2.avif"
     },
     {
-      "id": "3",
+      "id": "11",
       "name": "Giày Lười Da Lì Mũi Tròn",
       "sl": 12,
       "price": 389000,
@@ -91,7 +91,7 @@
       "img": "/img/shoes3.avif"
     },
     {
-      "id": "4",
+      "id": "12",
       "name": "Boot Nữ Cổ Ngắn Da Mờ",
       "sl": 6,
       "price": 629000,
@@ -99,7 +99,7 @@
       "img": "/img/shoes4.avif"
     },
     {
-      "id": "5",
+      "id": "13",
       "name": "Sandal Quai Ngang Nữ KStyle",
       "sl": 25,
       "price": 299000,
@@ -107,7 +107,7 @@
       "img": "/img/shoes5.avif"
     },
     {
-      "id": "6",
+      "id": "14",
       "name": "Giày Cao Gót 5cm Mũi Nhọn",
       "sl": 10,
       "price": 479000,
@@ -115,7 +115,7 @@
       "img": "/img/shoes6.avif"
     },
     {
-      "id": "7",
+      "id": "15",
       "name": "Giày Sneaker Hồng Pastel",
       "sl": 8,
       "price": 519000,
@@ -123,7 +123,7 @@
       "img": "/img/shoes7.avif"
     },
     {
-      "id": "8",
+      "id": "16",
       "name": "Boot Cao Cổ Thời Trang",
       "sl": 5,
       "price": 689000,

@@ -21,7 +21,7 @@ const ProductList = ({ items }) => {
         <div key={item.id} className="product-card">
           <NavLink to={`/product/${item.id}`} className="product-link">
             <img src={item.img} alt={item.name} className="product-img" />
-            <h4>{item.name}</h4>
+            <h5>{item.name}</h5>
             <p><strong style={priceStyle}>{item.price.toLocaleString()} đ</strong></p>
           </NavLink>
         </div>
@@ -41,6 +41,8 @@ const Home = () => {
         const dataShoes = await getShoes();
         const dataBags = await getBags();
         setShoes(dataShoes);
+        console.log("Shoes data:", dataShoes);
+        console.log("Bags data:", dataBags);
         setBags(dataBags);
       } catch (error) {
         console.error("Lỗi:", error);

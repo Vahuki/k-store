@@ -7,6 +7,7 @@ import Shoes from "./pages/Shoes";
 import Bags from "./pages/Bags";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import ProductDetail from "./pages/ProductDetail";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Route path="/bags" element={<Bags />} />
       <Route path="/login" element={<Login />} />
       <Route path="/cart" element={<Cart />} />
-      {/* Add more routes as needed */}
+      <Route path="/product/:id" element={<ProductDetail />} />
       <Route path="*" element={<div>404 Not Found</div>} />
     </Routes>
   );

@@ -38,13 +38,18 @@ const Bags = () => {
 
         <Layout>
             <div className="banner">
-                <img src="/img/banner-bag.webp" alt="banner bag" className="d-block w-100 h-80" />
+                <img
+                    src={`${process.env.PUBLIC_URL}/img/banner-bag.webp`}
+                    alt="banner bag"
+                    className="d-block w-100 h-80"
+                />
+
             </div>
             <div style={listbags}>
                 <div style={container}>
                     {bags.map((item) => (
                         <div key={item.id} className="product-card" >
-                            <img src={item.img} alt={item.name} className="product-img" />
+                            <img src={`${process.env.PUBLIC_URL}${item.img}`} alt={item.name} className="product-img" />
                             <h4>{item.name}</h4>
                             <p><strong style={price}>{item.price.toLocaleString()} đ</strong></p>
                         </div>

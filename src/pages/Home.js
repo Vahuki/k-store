@@ -20,7 +20,11 @@ const ProductList = ({ items }) => {
       {items.map((item) => (
         <div key={item.id} className="product-card">
           <NavLink to={`/product/${item.id}`} className="product-link">
-            <img src={item.img} alt={item.name} className="product-img" />
+            <img
+              src={`${process.env.PUBLIC_URL}${item.img}`}
+              alt={item.name}
+              className="product-img"
+            />
             <h5>{item.name}</h5>
             <p><strong style={priceStyle}>{item.price.toLocaleString()} đ</strong></p>
           </NavLink>
@@ -72,12 +76,20 @@ const Home = () => {
   return (
     <Layout>
       <div className="banner">
-        <img src="/img/banner-bag.webp" alt="banner bag" className="d-block w-100 h-80" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/banner-bag.webp`}
+          alt="banner bag"
+          className="d-block w-100 h-80"
+        />
       </div>
       <ProductList items={bags} />
       <NavLink to="/bags" style={btnDetail}>See More</NavLink>
       <div className="banner">
-        <img src="/img/banner-shoes.webp" alt="banner shoes" className="d-block w-100 h-80" />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/banner-shoes.webp`}
+          alt="banner shoes"
+          className="d-block w-100 h-80"
+        />
       </div>
       <ProductList items={shoes} />
       <NavLink to="/shoes" style={btnDetail}>See More</NavLink>

@@ -36,21 +36,31 @@ const Shoes = () => {
     if (shoes.length === 0) return <p>Không có sản phẩm nào</p>;
     return (
         <Layout>
-                    <div className="banner">
-                        <img src="/img/banner-shoes.webp" alt="banner shoes" className="d-block w-100 h-80" />
-                    </div>
-                    <div style={listshoes}>
-                        <div style={container}>
-                            {shoes.map((item) => (
-                                <div key={item.id} className="product-card" >
-                                    <img src={item.img} alt={item.name} className="product-img" />
-                                    <h4>{item.name}</h4>
-                                    <p><strong style={price}>{item.price.toLocaleString()} đ</strong></p>
-                                </div>
-                            ))}
+            <div className="banner">
+                <img
+                    src={`${process.env.PUBLIC_URL}/img/banner-shoes.webp`}
+                    alt="banner shoes"
+                    className="d-block w-100 h-80"
+                />
+            </div>
+            <div style={listshoes}>
+                <div style={container}>
+                    {shoes.map((item) => (
+                        <div key={item.id} className="product-card">
+                            <img
+                                src={`${process.env.PUBLIC_URL}${item.img}`}
+                                alt={item.name}
+                                className="product-img"
+                            />
+                            <h4>{item.name}</h4>
+                            <p>
+                                <strong style={price}>{item.price.toLocaleString()} đ</strong>
+                            </p>
                         </div>
-                    </div>
-                </Layout>
+                    ))}
+                </div>
+            </div>
+        </Layout>
     );
 }
 export default Shoes;

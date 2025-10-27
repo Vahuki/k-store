@@ -28,10 +28,11 @@ const ProductDetail = () => {
             <div style={{ maxWidth: '900px', margin: '0 auto', padding: '30px' }}>
                 <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
                     <img
-                        src={product.img}
+                        src={`${process.env.PUBLIC_URL}${product.img}`}
                         alt={product.name}
                         style={{ width: '100%', maxWidth: '400px', borderRadius: '8px' }}
                     />
+
                     <div>
                         <h2 style={{ fontSize: '2rem', marginBottom: '10px' }}>{product.name}</h2>
                         <p style={{ fontSize: '1.2rem', color: '#555' }}>{product.description}</p>
